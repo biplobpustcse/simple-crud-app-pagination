@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A98010B5-3CBB-44D0-95E9-A4499A97FBA0}|ItemApi\\ItemApi.csproj|d:\\biplob\u0027s documents\\practice project\\dot net 8 project\\itemapp\\itemapi\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98010B5-3CBB-44D0-95E9-A4499A97FBA0}|ItemApi\\ItemApi.csproj|solutionrelative:itemapi\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98010B5-3CBB-44D0-95E9-A4499A97FBA0}|ItemApi\\ItemApi.csproj|d:\\biplob\u0027s documents\\practice project\\dot net 8 project\\itemapp\\itemapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98010B5-3CBB-44D0-95E9-A4499A97FBA0}|ItemApi\\ItemApi.csproj|solutionrelative:itemapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98010B5-3CBB-44D0-95E9-A4499A97FBA0}|ItemApi\\ItemApi.csproj|d:\\biplob\u0027s documents\\practice project\\dot net 8 project\\itemapp\\itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A98010B5-3CBB-44D0-95E9-A4499A97FBA0}|ItemApi\\ItemApi.csproj|solutionrelative:itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\Migrations\\20250508052820_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ItemApi\\Migrations\\20250508052820_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98010B5-3CBB-44D0-95E9-A4499A97FBA0}|ItemApi\\ItemApi.csproj|d:\\biplob\u0027s documents\\practice project\\dot net 8 project\\itemapp\\itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A98010B5-3CBB-44D0-95E9-A4499A97FBA0}|ItemApi\\ItemApi.csproj|solutionrelative:itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A98010B5-3CBB-44D0-95E9-A4499A97FBA0}|ItemApi\\ItemApi.csproj|d:\\biplob\u0027s documents\\practice project\\dot net 8 project\\itemapp\\itemapi\\itemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A98010B5-3CBB-44D0-95E9-A4499A97FBA0}|ItemApi\\ItemApi.csproj|solutionrelative:itemapi\\itemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\Program.cs",
+              "RelativeDocumentMoniker": "ItemApi\\Program.cs",
+              "ToolTip": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\Program.cs",
+              "RelativeToolTip": "ItemApi\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:11:09.803Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ItemApi\\appsettings.json",
+              "ToolTip": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\appsettings.json",
+              "RelativeToolTip": "ItemApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T05:21:35.816Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ItemApi\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ItemApi\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:18:17.992Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250508052820_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\Migrations\\20250508052820_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ItemApi\\Migrations\\20250508052820_InitialCreate.cs",
+              "ToolTip": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\Migrations\\20250508052820_InitialCreate.cs",
+              "RelativeToolTip": "ItemApi\\Migrations\\20250508052820_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:28:20.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "ItemApi\\Controllers\\ItemsController.cs",
+              "ToolTip": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "ItemApi\\Controllers\\ItemsController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwCYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:25:57.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemApi",
+              "DocumentMoniker": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\ItemApi.csproj",
+              "RelativeDocumentMoniker": "ItemApi\\ItemApi.csproj",
+              "ToolTip": "D:\\Biplob\u0027s Documents\\Practice Project\\dot net 8 project\\ItemApp\\ItemApi\\ItemApi.csproj",
+              "RelativeToolTip": "ItemApi\\ItemApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-08T05:17:59.324Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

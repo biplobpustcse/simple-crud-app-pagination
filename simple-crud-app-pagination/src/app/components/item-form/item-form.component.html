@@ -1,0 +1,25 @@
+<h2>{{ isEditMode ? 'Edit Item' : 'Add New Item' }}</h2>
+
+<div *ngIf="loading" class="alert alert-info">Loading...</div>
+<div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+<form [formGroup]="itemForm" (ngSubmit)="onSubmit()" *ngIf="!loading && !errorMessage">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name:</label>
+    <input type="text" id="name" formControlName="name" class="form-control" [class.is-invalid]="itemForm.controls['name'].invalid && itemForm.controls['name'].touched">
+    <div *ngIf="itemForm.controls['name'].invalid && itemForm.controls['name'].touched" class="invalid-feedback">
+      Name is required.
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="description" class="form-label">Description:</label>
+    <textarea id="description" formControlName="description" class="form-control" [class.is-invalid]="itemForm.controls['description'].invalid && itemForm.controls['description'].touched"></textarea>
+    <div *ngIf="itemForm.controls['description'].invalid && itemForm.controls['description'].touched" class="invalid-feedback">
+      Description is required.
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary" [disabled]="itemForm.invalid || loading">{{ isEditMode ? 'Update Item' : 'Add Item' }}</button>
+  <button type="button" (click)="navigateToItems()" class="btn btn-secondary ms-2">Cancel</button>
+</form>
