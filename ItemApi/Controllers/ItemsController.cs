@@ -1,5 +1,6 @@
 ﻿using ItemApi.Data;
 using ItemApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,6 +17,7 @@ public class ItemsController : ControllerBase
         _context = context;
     }
 
+    [Authorize]
     [HttpGet]
     public async Task<ActionResult> Get(int page = 1, int pageSize = 10, string searchTerm = "")
     {

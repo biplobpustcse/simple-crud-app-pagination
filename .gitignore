@@ -1,0 +1,79 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# Build Folders
+bin/
+obj/
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated_Code/
+
+# Visual Studio working folder
+.vs/
+
+# ASP.NET Core published output
+wwwroot/
+**/Properties/launchSettings.json
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Logs and databases
+*.log
+*.sql
+*.db
+*.db-shm
+*.db-wal
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.vspx
+*.vsmdi
+*.testsettings
+*.tmh
+*.tlog
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Other IDEs or tools
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swn
+*.swo
+
+# Entity Framework Migrations snapshot files
+**/Migrations/*Snapshot.cs
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Others
+.env
