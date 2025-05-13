@@ -1,9 +1,11 @@
 using System.Text;
 using ItemApi.Data;
+using ItemApi.Middleware;
 using ItemApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -74,6 +76,16 @@ builder.Services.AddSwaggerGen(options =>
     );
 });
 
+// Setup Serilog BEFORE building the app
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .Enrich.FromLogContext()
+    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+// Replace default .NET logger with Serilog
+builder.Host.UseSerilog();
+
 //AddCors
 builder.Services.AddCors(options =>
 {
@@ -88,6 +100,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+app.UseMiddleware<ExceptionMiddleware>();
 app.UseCors("AllowAngularApp");
 
 // Configure the HTTP request pipeline.

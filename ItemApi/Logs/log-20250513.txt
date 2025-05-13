@@ -1,0 +1,35 @@
+2025-05-13 16:35:03.529 +06:00 [INF] User profile is available. Using 'C:\Users\BIPLOB\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-13 16:35:03.766 +06:00 [INF] Now listening on: http://localhost:5141
+2025-05-13 16:35:03.768 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-13 16:35:03.768 +06:00 [INF] Hosting environment: Development
+2025-05-13 16:35:03.768 +06:00 [INF] Content root path: D:\Biplob's Documents\Practice Project\dot net 8 project\ItemApp\ItemApi
+2025-05-13 16:35:04.402 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - null null
+2025-05-13 16:35:04.661 +06:00 [INF] Handling request: /swagger/index.html
+2025-05-13 16:35:04.804 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 null text/html;charset=utf-8 430.2576ms
+2025-05-13 16:35:04.860 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-13 16:35:04.870 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13749 application/javascript; charset=utf-8 11.7186ms
+2025-05-13 16:35:05.382 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - null null
+2025-05-13 16:35:05.465 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.7241ms
+2025-05-13 16:35:07.189 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - null null
+2025-05-13 16:35:07.189 +06:00 [INF] Handling request: /swagger/v1/swagger.json
+2025-05-13 16:35:07.339 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 149.7942ms
+2025-05-13 16:36:13.276 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5141/api/Items/1 - null null
+2025-05-13 16:36:13.296 +06:00 [INF] Handling request: /api/Items/1
+2025-05-13 16:36:13.387 +06:00 [INF] Executing endpoint 'ItemApi.Controllers.ItemsController.GetById (ItemApi)'
+2025-05-13 16:36:13.420 +06:00 [INF] Route matched with {action = "GetById", controller = "Items"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ItemApi.Models.Item]] GetById(Int32) on controller ItemApi.Controllers.ItemsController (ItemApi).
+2025-05-13 16:36:15.251 +06:00 [INF] Executed DbCommand (62ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[Description], [i].[Name]
+FROM [Items] AS [i]
+WHERE [i].[Id] = @__p_0
+2025-05-13 16:36:15.347 +06:00 [INF] Executing OkObjectResult, writing value of type 'ItemApi.Models.Item'.
+2025-05-13 16:36:15.356 +06:00 [INF] Executed action ItemApi.Controllers.ItemsController.GetById (ItemApi) in 1932.1254ms
+2025-05-13 16:36:15.357 +06:00 [INF] Executed endpoint 'ItemApi.Controllers.ItemsController.GetById (ItemApi)'
+2025-05-13 16:36:15.371 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5141/api/Items/1 - 200 null application/json; charset=utf-8 2096.9966ms
+2025-05-13 16:39:19.274 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5141/api/Items/5555555555555555555555555555555 - null null
+2025-05-13 16:39:19.276 +06:00 [INF] Handling request: /api/Items/5555555555555555555555555555555
+2025-05-13 16:39:19.282 +06:00 [INF] Executing endpoint 'ItemApi.Controllers.ItemsController.GetById (ItemApi)'
+2025-05-13 16:39:19.284 +06:00 [INF] Route matched with {action = "GetById", controller = "Items"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ItemApi.Models.Item]] GetById(Int32) on controller ItemApi.Controllers.ItemsController (ItemApi).
+2025-05-13 16:39:19.299 +06:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-05-13 16:39:19.312 +06:00 [INF] Executed action ItemApi.Controllers.ItemsController.GetById (ItemApi) in 27.5722ms
+2025-05-13 16:39:19.312 +06:00 [INF] Executed endpoint 'ItemApi.Controllers.ItemsController.GetById (ItemApi)'
+2025-05-13 16:39:19.312 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5141/api/Items/5555555555555555555555555555555 - 400 null application/problem+json; charset=utf-8 39.1712ms
